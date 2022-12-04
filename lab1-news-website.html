@@ -1,9 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-wdth" , initial-scale=1.0>
+    <meta lang="en-us">
+	<title>HTML Lab1</title>
 </head>
 <body>
+	<h1>Lab1-news-website</h1>
+	<form action="/action_page.php">
+       <label for="fname" >Name:</label><br>
+         <input type="text" id="fname" name="fname" maxlength="25" required >
+         <br>
+       <label for="email">E-Mail:</label><br>
+         <input type="text" id="email" name="email" minlength="6" value="test@example.com" autofocus="autofocus" required > &nbsp &nbsp &nbsp &nbsp
+       <label for="pwd">Password:</label>
+         <input type="password" id="password" name="password" minlength="6" required>
+         <br><br>
+       <label for="designation">Choose a designation:</label>
+         <select id="designation" name="cars" required>
+           <option value="student">Student</option>
+           <option value="employee">Employee</option>
+           <option value="freelancer" selected>Freelancer</option>
+
+         </
+         select>
+         
+         <br><br>
+
+        &nbsp &nbsp &nbsp &nbsp
+       <label for="event">Event Date:</label>
+         <input type="date" id="event" name="event" required>
+
+     <br>
+
+     <p>Please select number of tickets:</p>&nbsp&nbsp
+       <input type="radio" id="ticket1" name="ticket" required >&nbsp
+         <label for="ticket1">One Ticket</label><br>&nbsp&nbsp
+       <input type="radio" id="ticket2" name="ticket" required checked='checked'>&nbsp
+         <label for="ticket2">Two Ticket</label><br>&nbsp&nbsp
+       <input type="radio" id="ticket3" name="ticket" required >
+         <label for="ticket3">Three Ticket</label>&nbsp
+
+      <br><br>
+
+       <input type="checkbox" id="onlinepayment" name="onlinepayment" required >
+         <label for="onlinepayment"> Online Payment</label><br><br>
+
+
+     <p><label for="notes">Notes:</label></p>
+       <textarea id="notes" name="notes" rows="10" cols="110">
+           The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
+       </textarea>
+      <br>
+
+      <input type="submit" value="Submit"><br>
+    </form>
 
 </body>
 </html>
